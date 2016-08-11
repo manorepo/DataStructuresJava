@@ -16,14 +16,7 @@ class TestDLList{
     Student s3=new Student(3,"C");
     Student s4=new Student(4,"D");
     Student s5=new Student(5,"E");
-    dl.addLast(s3);
-    dl.addFirst(s2);
-    dl.addFirst(s1);
-    dl.addLast(s5);
-      System.out.println("remove First: Id "+dl.removeFirst().id);
-    System.out.println("remove Last: Id "+dl.removeLast().id);
-     System.out.println("remove First: Id "+dl.removeFirst().id);
-   System.out.println("remove Last: Id "+dl.removeLast().id);
+   
  dl.addLast(s3);
     dl.addFirst(s2);
     dl.addFirst(s1);

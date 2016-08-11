@@ -27,7 +27,7 @@ class DoubleLinkedList<T> implements DoubleLinkedListInterface<T>
       newElement.next=root;
       root=newElement;
     }
-     System.out.println(newElement);
+   //  System.out.println(newElement);
   }
    public void addLast(T newItem){
     //
@@ -45,7 +45,7 @@ class DoubleLinkedList<T> implements DoubleLinkedListInterface<T>
       top.next=newElement;
       top=newElement;
     }
-     System.out.println(newElement);
+     //System.out.println(newElement);
   }
    public T removeLast(){
     // Remove and return Last element
@@ -78,10 +78,10 @@ class DoubleLinkedList<T> implements DoubleLinkedListInterface<T>
       Element<T> curr=root;
       int count=1;
        while(curr!=null){
-        System.out.println(curr);
+       
          if(count==index)
          {
-            System.out.println("break");
+           
           break;
          }
         curr=curr.next;
