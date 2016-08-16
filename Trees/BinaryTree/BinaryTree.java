@@ -91,4 +91,18 @@ class BinaryTree<T> implements BinaryTreeInterface<T>{
         
       }
     }
+    public int height()
+    {
+      return findHeight(root);
+      
+    }
+    public int findHeight(Node<T> curr){
+      if(curr==null)
+        return -1;
+      else{
+        int leftHeight=findHeight(curr.left);
+        int rightHeight=findHeight(curr.right);
+        return Math.max(leftHeight,rightHeight)+1;
+      }
+    }
 }

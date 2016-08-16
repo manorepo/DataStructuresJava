@@ -10,9 +10,10 @@ class TestBinaryTree
   bt.addNode(5);
   bt.addNode(6);
   bt.addNode(7);
-  bt.addNode(8);
+ // bt.addNode(8);
   bt.inOrder();
   bt.preOrder();
   bt.postOrder();
+  System.out.println("Height "+ bt.height());
 }
 }
