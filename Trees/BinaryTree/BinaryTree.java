@@ -24,7 +24,6 @@ class BinaryTree<T> implements BinaryTreeInterface<T>{
           return true;
         }
         else{
-        System.out.println(root);
            Node<T> currentNode=queueList.peek();
            if(currentNode.left==null)
            {
